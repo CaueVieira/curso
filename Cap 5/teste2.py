@@ -1,1 +1,1 @@
-"Testanando a integração co o Hub"
+"Testando a integração com o Hub"
