@@ -1,0 +1,9 @@
+x = 1
+y = x * 2
+fim = 10
+count = 1
+while count <= 10:
+    print ("{} x 2 = {}".format(x,y))
+    count = count + 1
+    x = x + 1
+    y = x * 2
