@@ -1,7 +1,8 @@
+import pprint
+
 codigo = 0
 quantidade = 0
 custo = 0
-acumulado = 0
 soma = 0
 
 
@@ -18,4 +19,5 @@ while True:
     else:
         print ("Codigo inválido")
 
+pprint.pprint(preco)
 print ("Você gastará R${:5.2f} nesta compra".format(soma))
