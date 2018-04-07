@@ -16,7 +16,7 @@ while True:
     if ItensB == 0:
         break
     elif ItensB in A:
-        ItensB = ""
+        continue
     else:
         B.append(ItensB)
 
