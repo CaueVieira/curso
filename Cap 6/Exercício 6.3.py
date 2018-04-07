@@ -3,7 +3,7 @@
 A = []
 B = []
 while True:
-    print ("Digite valores para a primeira lista, ou 0 para sair")
+    print("Digite valores para a primeira lista, ou 0 para sair")
     ItensA = int(input ())
     if ItensA == 0:
         break
@@ -24,5 +24,5 @@ while True:
 
 C = A+B
 C.sort()
-print ("A+B = {}".format(C))
+print("A+B = {}".format(C))
 
