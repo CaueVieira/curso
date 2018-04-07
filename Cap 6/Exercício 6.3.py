@@ -7,6 +7,8 @@ while True:
     ItensA = int(input ())
     if ItensA == 0:
         break
+    elif ItensA in A:
+        continue
     else:
         A.append(ItensA)
 
@@ -15,7 +17,7 @@ while True:
     ItensB = int(input())
     if ItensB == 0:
         break
-    elif ItensB in A:
+    elif ItensB in A or ItensB in B:
         continue
     else:
         B.append(ItensB)
