@@ -18,6 +18,5 @@ while True:
     else:
         B.append(ItensB)
 
-C = A[:]
-C.extend(B)
+C = A+B
 print ("A+B = {}".format(C))
