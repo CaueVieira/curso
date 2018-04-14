@@ -15,18 +15,18 @@ for numeros in L:
     if L[x] == p:
         achouP = True
         a = x
+        if v not in L:
+            print("Primeira pesquisa: Valor de {} encontrado na posição {}. \nSegundo valor pesquisado não foi encontrado.".format(p, a))
     if L[x] == v:
         achouV = True
         b = x
+        if p not in L:
+            print("Segunda pesquisa: Valor de {} encontrado na posição {}. \nPrimeiro valor pesquisado não foi encontrado.".format(v, b))
     x += 1
 
 if achouP == False and achouV == False:
     print ("Nenhum dos valores foram encontrados.")
-elif achouP == True and achouV == False:
-    print("Primeira pesquisa: Valor de {} encontrado na posição {}. \nSegundo valor pesquisado não foi encontrado.".format(p, a))
-elif achouP == False and achouV == True:
-    print("Segunda pesquisa: Valor de {} encontrado na posição {}. \nPrimeiro valor não encontrado.".format(v, b))
-else:
+elif achouP == True and achouV == True:
     print("Primeira pesquisa: Valor de {} encontrado na posição {}.".format(p, a))
     print("Segunda pesquisa: Valor de {} encontrado na posição {}.".format(v, b))
     if a < b:
