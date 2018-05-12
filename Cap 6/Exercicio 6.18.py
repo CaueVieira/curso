@@ -10,3 +10,4 @@ for caracteres in frase:
 
 pprint.pprint(dicionario)
 
+[================================y]
