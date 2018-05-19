@@ -2,7 +2,8 @@
 
 
 def multiplicador(a, b):
-    return True if b % a == 0 else "Não é multiplo"
+    return a % b == 0
 
-
-print(multiplicador(7, 3))
+a, b = input("Coloque dois números, separados por espaço").split()
+a, b = int(a), int(b)
+print(multiplicador(a, b))
